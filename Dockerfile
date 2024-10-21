@@ -2,7 +2,7 @@ FROM python:3.13-alpine
 
 WORKDIR /data
 
-RUN pip install django==3.2
+RUN pip install --upgrade django==3.2
 
 COPY . .
 
